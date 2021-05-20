@@ -12,7 +12,6 @@ var firebaseConfig = {
 const db = firebase.firestore();
 export const auth = firebase.auth();
 export default firebase;
-export const auth = firebase.auth();
 
 export const getFirebaseItems = async () => {
   try {
